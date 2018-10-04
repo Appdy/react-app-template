@@ -1,7 +1,12 @@
 {
-  "name": "my-idea-pool",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "React template app",
+  "license": "MIT",
+  "author": "Adam Faryna (appdy.co.uk)",
+  "homepage": "https://github.com/Appdy/react-template#readme",
+  "keywords": "react javascript template",
+  "repository": "github:Appdy/react-template",
   "scripts": {
     "build-css": "node-sass-chokidar src/styles -o src/styles",
     "watch-css": "npm run build-css && node-sass-chokidar src/styles/ -o src/styles/ --watch --recursive",
