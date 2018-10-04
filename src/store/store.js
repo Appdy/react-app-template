@@ -22,7 +22,18 @@ export function initStore(reducer, preloadedState={}) {
   ]
 
   const persistedReducer = persistReducer(persistConfig, reducer)
-  store = createStore(persistedReducer, preloadedState, composeWithDevTools(applyMiddleware(...middlewares)))
+
+  if (process.env.NODE_ENV === "production") {
+    store = createStore(persistedReducer, preloadedState, applyMiddleware(...middlewares))
+
+  } else if (process.env.NODE_ENV === "development") {
+    store = createStore(persistedReducer, preloadedState, composeWithDevTools(applyMiddleware(...middlewares)))
+
+  } else {
+    store = createStore(persistedReducer, preloadedState, composeWithDevTools(applyMiddleware(...middlewares)))
+
+  }
+
   persistor = persistStore(store)
 
   sagaMiddleware.run(sagas)
