@@ -7,6 +7,7 @@ This is React app template, based on [Create React App v1.5.2](https://github.co
 * Redux support throuh [React Redux](https://github.com/reduxjs/react-redux)
 * Redux special effects through [Redux Saga](https://github.com/redux-saga/redux-saga)
 * Redux selectors support by [reselect](https://github.com/reduxjs/reselect)
+* Redux form support by[Redux Form](https://github.com/erikras/redux-form/)
 * Redux time travel and state navigation through [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)
 * Routing between pages by [React Router v4.3](https://github.com/ReactTraining/react-router)
 * Ajax support through promise based [Axios](https://github.com/axios/axios) library
