@@ -1,0 +1,11 @@
+#main_content {
+  display: inline-block;
+  width: calc(100% - #{$main_sidebar_width});
+  height: 100%;
+}
+
+#main_sidebar {
+  display: inline-block;
+  width: $main_sidebar_width;
+  height: 100%;
+}

@@ -1,0 +1,58 @@
+.idea-record {
+  width: 100%;
+  transition: all .5s ease-in-out;
+
+  &.fa {
+    display: flex;
+    color: map-get($colours, grey);
+  }
+
+  &::before {
+    margin: 5px 20px 0 0;
+    font-size: 10px;
+  }
+
+  span.value {
+    flex: initial;
+    text-align: center;
+  }
+
+  > input {
+    margin-right: 51px;
+  }
+
+  .average {
+    margin-left: 10px;
+  }
+
+  &.edit {
+    .average {
+      margin-left: -4px;
+    }
+  }
+
+  &.focused {
+    .idea-options {
+      opacity: 1;
+    }
+  }
+
+  .idea-options {
+    display: inline-block;
+    opacity: 0;
+    max-width: 14%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    transition: opacity .5s;
+
+    button {
+      background-color: initial;
+      padding: 0;
+
+      & ~ button {
+        margin-left: 35px;
+      }
+    }
+  }
+}

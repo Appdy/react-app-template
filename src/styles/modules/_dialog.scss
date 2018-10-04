@@ -1,0 +1,42 @@
+.dialog-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  // background-color: map-get($colours, grey);
+}
+
+.dialog {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(0, -50%);
+  border-radius: 3px;
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  box-shadow: 0 0 20px 0 map-get($colours-dark, black);
+  background-color: map-get($colours-nalpha, white);
+  z-index: 999;
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .controls {
+    button {
+      background-color: map-get($colours, white);
+      color: map-get($colours, black);
+
+      &.confirm {
+        color: map-get($colours-light, green);
+      }
+    }
+  }
+}

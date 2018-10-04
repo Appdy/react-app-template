@@ -1,0 +1,34 @@
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: map-get($colours, green);
+  height: 100%;
+
+  & > * {
+    width: 146px;
+  }
+
+  * {
+    color: map-get($colours-nalpha, white);
+  }
+
+  .main-icon {
+    margin-top: 37px;
+
+    img,
+    span {
+      display: block;
+    }
+
+    img {
+      margin: 0 auto;
+    }
+
+    span {
+      text-align: center;
+      margin-top: 13px;
+      line-height: 22px;
+    }
+  }
+}

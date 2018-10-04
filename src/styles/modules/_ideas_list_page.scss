@@ -1,0 +1,50 @@
+.ideas-list-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 44px 87px 0 79px;
+  height: 100%;
+
+  .idea-header {
+    padding-bottom: 32px;
+    border-bottom: 1px solid map-get($colours, grey);
+    margin-bottom: 39px;
+
+    button {
+      padding: 0;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .ideas {
+    .headers {
+      margin-bottom: 21px;
+
+      span {
+        flex: initial;
+        text-align: center;
+      }
+    }
+
+    .records {
+      form ~ form {
+        margin-top: 28px;
+      }
+    }
+  }
+
+  .ideas-empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    img {
+      display: block;
+      margin-bottom: 23px;
+    }
+  }
+}

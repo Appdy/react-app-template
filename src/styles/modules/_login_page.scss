@@ -1,0 +1,35 @@
+.register-page,
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  h1 {
+    margin-bottom: 62px;
+  }
+
+  form {
+    input[type="password"],
+    input[type="text"] {
+      display: block;
+
+      & ~ input[type="password"],
+      & ~ input[type="text"] {
+        margin-top: 53px;
+      }
+    }
+
+    button[type="submit"],
+    input[type="submit"] {
+      margin-top: 64px;
+    }
+
+    .already-registered,
+    .not-registered {
+      display: inline-block;
+      padding-left: 26px;
+    }
+  }
+}

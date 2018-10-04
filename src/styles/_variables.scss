@@ -1,0 +1,27 @@
+$main_sidebar_width: 199.4px;
+$font_size_default: 16px;
+
+$colours: (
+  white: rgba(255,255,255,0.20),
+  green: rgba(0,168,67,1),
+  grey: rgba(42,56,66,0.2),
+  black: rgba(42,56,66,1),
+  red: unquote("#e42323b8")
+);
+
+$colours-light: (
+  white: unquote("#F2F2F2"),
+  grey: rgba(151,151,151,1),
+  green: unquote("#00A843")
+);
+
+$colours-dark: (
+  black: rgba(0,0,0,0.20),
+  white: unquote("#D4D4D4"),
+  blue: rgba(69,94,112,1),
+  purple: rgba(42,56,66,0.65)
+);
+
+$colours-nalpha: (
+  white: unquote("#FFF")
+);
