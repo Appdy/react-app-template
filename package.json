@@ -5,7 +5,14 @@
   "license": "MIT",
   "author": "Adam Faryna (appdy.co.uk)",
   "homepage": "https://github.com/Appdy/react-template#readme",
-  "keywords": "react javascript template",
+  "keywords": [
+    "react",
+    "javascript",
+    "app template",
+    "react-redux",
+    "redux-saga",
+    "react-router"
+  ],
   "repository": "github:Appdy/react-template",
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
