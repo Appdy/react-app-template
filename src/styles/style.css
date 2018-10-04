@@ -760,6 +760,9 @@ select {
     display: inline-block;
     width: calc(100% - 200px); }
 
+.application {
+  height: 100%; }
+
 .register-page,
 .login-page {
   display: flex;
