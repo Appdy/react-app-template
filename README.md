@@ -1,6 +1,7 @@
 # React Template
 
 This is React app template, based on [Create React App v1.5.2](https://github.com/facebook/create-react-app) script with added additional functionalities, mandatory these days:
+* React v16.5.2
 * Support IE version 9, 10, 11+ (default)
 * HTML meta management by [React Helmet](https://github.com/nfl/react-helmet)
 * Redux support throuh [React Redux](https://github.com/reduxjs/react-redux)
